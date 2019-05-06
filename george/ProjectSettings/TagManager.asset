@@ -38,9 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
+  - name: ckgroundnd
     uniqueID: 1172168873
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Front
+    uniqueID: 3795039061
     locked: 0
