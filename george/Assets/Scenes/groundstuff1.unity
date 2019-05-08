@@ -1649,6 +1649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca6e2fe3e4a95e24aaece9c5b2cac8a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!252 &1097960960
 SurfaceEffector2D:
   m_ObjectHideFlags: 0
