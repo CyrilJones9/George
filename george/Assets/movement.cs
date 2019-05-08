@@ -14,7 +14,7 @@ using UnityEngine.SceneManagement;
 ** player leaves the wiewport.
 */
 
-public class PlayerController : MonoBehaviour
+public class movement : MonoBehaviour
 {
    
     public float speed = 1.0f;
@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     public string axisY = "Vertical";
 
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,8 @@ public class PlayerController : MonoBehaviour
          * Since the update overhead is split across the Update() methods of
          * all of the game objects, it can add up in non-obvious ways.
          */
-        rb = GetComponent<Rigidbody2D>();
+         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -55,20 +57,10 @@ public class PlayerController : MonoBehaviour
         var moveY = Input.GetAxisRaw(axisY);
 
         rb.velocity = new Vector2(moveX * speed, moveY * speed);
-
-        // Check to see if we have left the viewport - change scene if so.
-        if (CheckBounds()) {
-          LoadNextScene();
+        sr.flip.X = true;
         }
     }
 
-    bool CheckBounds() {
-      if (Math.Abs(transform.position.x) > 4 ||
-        Math.Abs(transform.position.y) > 3)
-        return true;
-        else
-        return false;
-    }
 
     void LoadNextScene()
     {
