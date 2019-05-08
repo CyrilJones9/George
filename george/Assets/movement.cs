@@ -16,12 +16,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    /*
-     * Public instance variables are visible in the Unity Inspector, they
-     * are a convenient way to set tuning variables. You can also declare
-     * variables that you would like to watch at runtime as public - even
-     * if you shouldn't be changing them manually.
-     */
+   
     public float speed = 1.0f;
     public float speedStep = 0;             // Not used yet.
     public string axisX = "Horizontal";

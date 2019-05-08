@@ -1650,7 +1650,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!252 &1097960960
 SurfaceEffector2D:
   m_ObjectHideFlags: 0
@@ -1758,6 +1757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158715513}
   - component: {fileID: 1158715514}
+  - component: {fileID: 1158715515}
   m_Layer: 0
   m_Name: InvWall (1)
   m_TagString: Untagged
@@ -1827,6 +1827,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1158715515
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158715512}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1163158797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1995,6 +2016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1187071307}
   - component: {fileID: 1187071308}
+  - component: {fileID: 1187071309}
   m_Layer: 0
   m_Name: InvWall (0)
   m_TagString: Untagged
@@ -2064,6 +2086,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1187071309
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187071306}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1190428607
 GameObject:
   m_ObjectHideFlags: 0
