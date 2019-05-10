@@ -23,6 +23,7 @@ public class movement : MonoBehaviour
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
+    private Animator amr;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,7 @@ public class movement : MonoBehaviour
          */
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        amr = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -54,10 +56,12 @@ public class movement : MonoBehaviour
          */
         var moveX = Input.GetAxisRaw(axisX);
         var moveY = Input.GetAxisRaw(axisY);
-
+    if (grounded )
+        
         rb.velocity = new Vector2(moveX * speed, moveY * speed);
         if (rb.velocity != Vector2.zero)
         {
+            amr.enabled = true;
             if (rb.velocity.x > 0)
             {
                 sr.flipX = false;
@@ -66,6 +70,10 @@ public class movement : MonoBehaviour
             {
                 sr.flipX = true;
             }
+        }
+        else
+        {
+            amr.enabled = false;
         }
     }
 
@@ -106,35 +114,14 @@ public class movement : MonoBehaviour
     {
         switch (other.gameObject.tag)
         {
-            case "Memory":
+            case "Ground":
                 Debug.Log("Player Controller: OnCollisionEnter2D(): collision with Memory: '"
                           + other.gameObject.name + "'");
-                // Inform the player about the memory.
-                Describe(other.gameObject);
-                break;
+                Grounded = true;
+                break; 
+            
 
-            case "Obstacle":
-                Debug.Log("Player Controller: OnCollisionEnter2D(): collision with Obstacle: '"
-                          + other.gameObject.name + "'");
-                // Destroy the obstacle.
-                Destroy(other.gameObject);
-                break;
-
-            case "Passage":
-                /*
-                 * This could also happen in an OnTriggerEnter() handler, but for now we set up an
-                 * invisible sprite and use the collision to trigger loading the next scene...
-                 */
-                Debug.Log("Player Controller: OnCollisionEnter2D(): collision with Passage: '"
-                          + other.gameObject.name + "'");
-                LoadNextScene();
-                // Go a little faster on the next level.
-                speed = speed + speedStep;
-                break;
-
-            case "Wall":
-                // Nothing to do here (at least for now).
-                break;
+         
 
             default:
                 Debug.Log("Player Controller: OnCollisionEnter2D(): collision with untagged object: '"
