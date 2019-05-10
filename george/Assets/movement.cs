@@ -16,9 +16,8 @@ using UnityEngine.SceneManagement;
 
 public class movement : MonoBehaviour
 {
-   
     public float speed = 1.0f;
-    public float speedStep = 0;             // Not used yet.
+    public float speedStep = 0; // Not used yet.
     public string axisX = "Horizontal";
     public string axisY = "Vertical";
 
@@ -35,7 +34,7 @@ public class movement : MonoBehaviour
          * Since the update overhead is split across the Update() methods of
          * all of the game objects, it can add up in non-obvious ways.
          */
-         rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
     }
 
@@ -57,26 +56,35 @@ public class movement : MonoBehaviour
         var moveY = Input.GetAxisRaw(axisY);
 
         rb.velocity = new Vector2(moveX * speed, moveY * speed);
-        sr.flip.X = true;
+        if (rb.velocity != Vector2.zero)
+        {
+            if (rb.velocity.x > 0)
+            {
+                sr.flipX = false;
+            }
+            else
+            {
+                sr.flipX = true;
+            }
         }
     }
 
 
     void LoadNextScene()
     {
-      /*
-       * Using the SceneParameters object lets us get a Scene object back,
-       * this can be useful for error checking - although that is not done
-       * here (yet).
-       */
-      var parameters = new LoadSceneParameters(LoadSceneMode.Single);
-
-      Scene scene = SceneManager.LoadScene("Scene_" +
-        (++GameState.SceneNumber), parameters);
-
-      // Trace execution - just in case...
-      Debug.Log("PlayerController: LoadNextScene(): loading scene '" +
-        sceneNumber + "'");
+        /*
+         * Using the SceneParameters object lets us get a Scene object back,
+         * this can be useful for error checking - although that is not done
+         * here (yet).
+         */
+//      var parameters = new LoadSceneParameters(LoadSceneMode.Single);
+//
+//      Scene scene = SceneManager.LoadScene("Scene_" +
+//        (++GameState.SceneNumber), parameters);
+//
+//      // Trace execution - just in case...
+//      Debug.Log("PlayerController: LoadNextScene(): loading scene '" +
+//        sceneNumber + "'");
     }
 
     /*

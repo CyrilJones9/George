@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2813fd80-2c09-4564-a880-b7bd84abda1f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.george/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.george/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/movement.cs___jb_tmp___.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +17,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/movement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="714">
+              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
               <folding>
-                <element signature="e#0#127#0" expanded="true" />
+                <marker date="1557502264127" expanded="false" signature="6:127" ph="..." />
+                <marker date="1557502264127" expanded="true" signature="129:414" ph="/* Scene_0 ... */" />
+                <marker date="1557502264127" expanded="true" signature="453:5116" ph="{...}" />
+                <marker date="1557502264127" expanded="true" signature="744:1179" ph="{...}" />
+                <marker date="1557502264127" expanded="true" signature="759:1086" ph="/* GetComponent() is a relatively expensive method, we call it here ... */" />
+                <marker date="1557502264127" expanded="true" signature="1237:2176" ph="{...}" />
+                <marker date="1557502264127" expanded="true" signature="1252:1778" ph="/* Get the amount of X and Y axis movement the user is asking for. ... */" />
+                <marker date="1557502264127" expanded="true" signature="1975:2170" ph="{...}" />
+                <marker date="1557502264127" expanded="true" signature="2020:2082" ph="{...}" />
+                <marker date="1557502264127" expanded="true" signature="2099:2160" ph="{...}" />
+                <marker date="1557502264127" expanded="true" signature="2203:2747" ph="{...}" />
+                <marker date="1557502264127" expanded="true" signature="2218:2409" ph="/* Using the SceneParameters object lets us get a Scene object back, ... */" />
+                <marker date="1557502264127" expanded="true" signature="2410:2741" ph="/* var parameters = new LoadSceneParameters(LoadSceneMode.Single); ... */" />
+                <marker date="1557502264127" expanded="true" signature="2753:2849" ph="/* Scene_1 ... */" />
+                <marker date="1557502264127" expanded="true" signature="2855:3377" ph="/* OnCollisionEnter() is called whenever we collide with another game ... */" />
+                <marker date="1557502264127" expanded="true" signature="3424:5012" ph="{...}" />
+                <marker date="1557502264127" expanded="true" signature="3468:5006" ph="{...}" />
+                <marker date="1557502264127" expanded="true" signature="4116:4332" ph="/* This could also happen in an OnTriggerEnter() handler, but for now we set up an ... */" />
+                <marker date="1557502264127" expanded="true" signature="5050:5114" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,14 +71,14 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,11 +124,12 @@
       <updated>1557156490438</updated>
       <workItem from="1557156503846" duration="1235000" />
       <workItem from="1557328906190" duration="3198000" />
+      <workItem from="1557498498284" duration="3158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4433000" />
+    <option name="totallyTimeSpent" value="7591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -123,12 +144,11 @@
     <frame x="-907" y="0" width="948" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11936937" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12162162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -142,7 +162,8 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Unity" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -170,10 +191,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/movement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="714">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
           <folding>
-            <element signature="e#0#127#0" expanded="true" />
+            <marker date="1557502264127" expanded="false" signature="6:127" ph="..." />
+            <marker date="1557502264127" expanded="true" signature="129:414" ph="/* Scene_0 ... */" />
+            <marker date="1557502264127" expanded="true" signature="453:5116" ph="{...}" />
+            <marker date="1557502264127" expanded="true" signature="744:1179" ph="{...}" />
+            <marker date="1557502264127" expanded="true" signature="759:1086" ph="/* GetComponent() is a relatively expensive method, we call it here ... */" />
+            <marker date="1557502264127" expanded="true" signature="1237:2176" ph="{...}" />
+            <marker date="1557502264127" expanded="true" signature="1252:1778" ph="/* Get the amount of X and Y axis movement the user is asking for. ... */" />
+            <marker date="1557502264127" expanded="true" signature="1975:2170" ph="{...}" />
+            <marker date="1557502264127" expanded="true" signature="2020:2082" ph="{...}" />
+            <marker date="1557502264127" expanded="true" signature="2099:2160" ph="{...}" />
+            <marker date="1557502264127" expanded="true" signature="2203:2747" ph="{...}" />
+            <marker date="1557502264127" expanded="true" signature="2218:2409" ph="/* Using the SceneParameters object lets us get a Scene object back, ... */" />
+            <marker date="1557502264127" expanded="true" signature="2410:2741" ph="/* var parameters = new LoadSceneParameters(LoadSceneMode.Single); ... */" />
+            <marker date="1557502264127" expanded="true" signature="2753:2849" ph="/* Scene_1 ... */" />
+            <marker date="1557502264127" expanded="true" signature="2855:3377" ph="/* OnCollisionEnter() is called whenever we collide with another game ... */" />
+            <marker date="1557502264127" expanded="true" signature="3424:5012" ph="{...}" />
+            <marker date="1557502264127" expanded="true" signature="3468:5006" ph="{...}" />
+            <marker date="1557502264127" expanded="true" signature="4116:4332" ph="/* This could also happen in an OnTriggerEnter() handler, but for now we set up an ... */" />
+            <marker date="1557502264127" expanded="true" signature="5050:5114" ph="{...}" />
           </folding>
         </state>
       </provider>
