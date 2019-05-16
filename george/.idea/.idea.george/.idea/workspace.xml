@@ -4,6 +4,7 @@
     <list default="true" id="2813fd80-2c09-4564-a880-b7bd84abda1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/groundstuff1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/groundstuff1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,28 +17,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/movement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            <state relative-caret-position="678">
+              <caret line="120" column="46" lean-forward="true" selection-start-line="120" selection-start-column="46" selection-end-line="120" selection-end-column="46" />
               <folding>
-                <marker date="1557503346362" expanded="false" signature="6:127" ph="..." />
-                <marker date="1557503346362" expanded="true" signature="129:414" ph="/* Scene_0 ... */" />
-                <marker date="1557503346362" expanded="true" signature="453:4297" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="770:1245" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="785:1112" ph="/* GetComponent() is a relatively expensive method, we call it here ... */" />
-                <marker date="1557503346362" expanded="true" signature="1303:2367" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="1318:1844" ph="/* Get the amount of X and Y axis movement the user is asking for. ... */" />
-                <marker date="1557503346362" expanded="true" signature="2068:2295" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="2145:2207" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="2224:2285" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="2308:2361" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="2394:2938" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="2409:2600" ph="/* Using the SceneParameters object lets us get a Scene object back, ... */" />
-                <marker date="1557503346362" expanded="true" signature="2601:2932" ph="/* var parameters = new LoadSceneParameters(LoadSceneMode.Single); ... */" />
-                <marker date="1557503346362" expanded="true" signature="2944:3040" ph="/* Scene_1 ... */" />
-                <marker date="1557503346362" expanded="true" signature="3046:3568" ph="/* OnCollisionEnter() is called whenever we collide with another game ... */" />
-                <marker date="1557503346362" expanded="true" signature="3615:4193" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="3659:4187" ph="{...}" />
-                <marker date="1557503346362" expanded="true" signature="4231:4295" ph="{...}" />
+                <marker date="1557848623219" expanded="false" signature="6:127" ph="..." />
+                <marker date="1557848623219" expanded="true" signature="129:414" ph="/* Scene_0 ... */" />
+                <marker date="1557848623219" expanded="true" signature="453:4535" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="803:1278" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="818:1145" ph="/* GetComponent() is a relatively expensive method, we call it here ... */" />
+                <marker date="1557848623219" expanded="true" signature="1336:2605" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="1351:1877" ph="/* Get the amount of X and Y axis movement the user is asking for. ... */" />
+                <marker date="1557848623219" expanded="true" signature="1989:2200" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="2054:2162" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="2306:2533" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="2383:2445" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="2462:2523" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="2546:2599" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="2632:3176" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="2647:2838" ph="/* Using the SceneParameters object lets us get a Scene object back, ... */" />
+                <marker date="1557848623219" expanded="true" signature="2839:3170" ph="/* var parameters = new LoadSceneParameters(LoadSceneMode.Single); ... */" />
+                <marker date="1557848623219" expanded="true" signature="3182:3278" ph="/* Scene_1 ... */" />
+                <marker date="1557848623219" expanded="true" signature="3284:3806" ph="/* OnCollisionEnter() is called whenever we collide with another game ... */" />
+                <marker date="1557848623219" expanded="true" signature="3853:4431" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="3897:4425" ph="{...}" />
+                <marker date="1557848623219" expanded="true" signature="4469:4533" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,15 +72,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,11 +127,12 @@
       <workItem from="1557156503846" duration="1235000" />
       <workItem from="1557328906190" duration="3198000" />
       <workItem from="1557498498284" duration="4240000" />
+      <workItem from="1557844079837" duration="4207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8673000" />
+    <option name="totallyTimeSpent" value="12880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -142,7 +146,7 @@
   <component name="ToolWindowManager">
     <frame x="-907" y="0" width="948" height="1407" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12162162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123873875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -189,28 +193,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/movement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        <state relative-caret-position="678">
+          <caret line="120" column="46" lean-forward="true" selection-start-line="120" selection-start-column="46" selection-end-line="120" selection-end-column="46" />
           <folding>
-            <marker date="1557503346362" expanded="false" signature="6:127" ph="..." />
-            <marker date="1557503346362" expanded="true" signature="129:414" ph="/* Scene_0 ... */" />
-            <marker date="1557503346362" expanded="true" signature="453:4297" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="770:1245" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="785:1112" ph="/* GetComponent() is a relatively expensive method, we call it here ... */" />
-            <marker date="1557503346362" expanded="true" signature="1303:2367" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="1318:1844" ph="/* Get the amount of X and Y axis movement the user is asking for. ... */" />
-            <marker date="1557503346362" expanded="true" signature="2068:2295" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="2145:2207" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="2224:2285" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="2308:2361" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="2394:2938" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="2409:2600" ph="/* Using the SceneParameters object lets us get a Scene object back, ... */" />
-            <marker date="1557503346362" expanded="true" signature="2601:2932" ph="/* var parameters = new LoadSceneParameters(LoadSceneMode.Single); ... */" />
-            <marker date="1557503346362" expanded="true" signature="2944:3040" ph="/* Scene_1 ... */" />
-            <marker date="1557503346362" expanded="true" signature="3046:3568" ph="/* OnCollisionEnter() is called whenever we collide with another game ... */" />
-            <marker date="1557503346362" expanded="true" signature="3615:4193" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="3659:4187" ph="{...}" />
-            <marker date="1557503346362" expanded="true" signature="4231:4295" ph="{...}" />
+            <marker date="1557848623219" expanded="false" signature="6:127" ph="..." />
+            <marker date="1557848623219" expanded="true" signature="129:414" ph="/* Scene_0 ... */" />
+            <marker date="1557848623219" expanded="true" signature="453:4535" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="803:1278" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="818:1145" ph="/* GetComponent() is a relatively expensive method, we call it here ... */" />
+            <marker date="1557848623219" expanded="true" signature="1336:2605" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="1351:1877" ph="/* Get the amount of X and Y axis movement the user is asking for. ... */" />
+            <marker date="1557848623219" expanded="true" signature="1989:2200" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="2054:2162" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="2306:2533" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="2383:2445" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="2462:2523" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="2546:2599" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="2632:3176" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="2647:2838" ph="/* Using the SceneParameters object lets us get a Scene object back, ... */" />
+            <marker date="1557848623219" expanded="true" signature="2839:3170" ph="/* var parameters = new LoadSceneParameters(LoadSceneMode.Single); ... */" />
+            <marker date="1557848623219" expanded="true" signature="3182:3278" ph="/* Scene_1 ... */" />
+            <marker date="1557848623219" expanded="true" signature="3284:3806" ph="/* OnCollisionEnter() is called whenever we collide with another game ... */" />
+            <marker date="1557848623219" expanded="true" signature="3853:4431" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="3897:4425" ph="{...}" />
+            <marker date="1557848623219" expanded="true" signature="4469:4533" ph="{...}" />
           </folding>
         </state>
       </provider>

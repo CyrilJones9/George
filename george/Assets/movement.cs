@@ -24,7 +24,7 @@ public class movement : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Animator amr;
-
+    public bool Grounded = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,8 +56,16 @@ public class movement : MonoBehaviour
          */
         var moveX = Input.GetAxisRaw(axisX);
         var moveY = Input.GetAxisRaw(axisY);
-    if (grounded )
-        
+        if (Grounded)
+        {
+            // we can jump
+            if (moveY == 1)
+            {
+                Grounded = false;
+                rb.velocity = Vector2.up * 1;
+            }
+            // apply force?
+        }
         rb.velocity = new Vector2(moveX * speed, moveY * speed);
         if (rb.velocity != Vector2.zero)
         {
