@@ -86,11 +86,8 @@ LightmapSettings:
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-<<<<<<< HEAD
     m_PVREnvironmentMIS: 0
-=======
     m_PVRFilteringMode: 2
->>>>>>> 117fc86de27297a81956d7d786fc9dd46b9a0d02
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -1917,11 +1914,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097960953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: -9.86, y: -2.77, z: 0}
-=======
-  m_LocalPosition: {x: -9.68, y: -2.79, z: 0}
->>>>>>> 117fc86de27297a81956d7d786fc9dd46b9a0d02
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 982192377}
