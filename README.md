@@ -6,5 +6,5 @@
 Cyril
 Gregory
 Lisa 
-Angle 
+Angel
 Kiaran
